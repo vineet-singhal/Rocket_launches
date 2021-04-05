@@ -4,8 +4,9 @@ export const Card = ({flight}) =>(
                 <img src={flight.links.mission_patch} className="card-img-top" alt="No Images"/>
                 <div className="card-body">
                   <h5 className="card-title">{flight.mission_name}</h5>
-                  <p className="card-text">{flight.details}</p>
-                  <a href="#" className="btn btn-primary" data-toggle="modal" data-target={`#unique${flight.mission_name}`}>Go somewhere</a>
+                  <p className="card-text"><h6>Launch Date: </h6>{flight.launch_date_local.split("T")[0]}</p>
+                  <p className="card-text"><h6>Launch Status: </h6>{flight.launch_success ? `Success` : `Failure`}</p>
+                  <a href="#" className="btn btn-primary" data-toggle="modal" data-target={`#modal${flight.launch_date_unix}`}>Go somewhere</a>
                 </div>
               </div>
     </div>

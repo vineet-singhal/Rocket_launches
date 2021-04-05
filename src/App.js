@@ -24,8 +24,8 @@ class App extends Component {
         <div className='row'>
         {this.state.flights.map(flight => (
           <>
-          <Card key={flight.mission_name} flight={flight}/>
-          <Modal key={`unique1${flight.mission_name}`} flight={flight}/>
+          <Card key={flight.launch_date_unix} flight={flight}/>
+          <Modal key={`unique1${flight.launch_date_unix}`} flight={flight}/>
           </>
         ))}
         </div>
