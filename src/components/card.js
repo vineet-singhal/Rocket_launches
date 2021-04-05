@@ -5,7 +5,7 @@ export const Card = ({flight}) =>(
                 <div className="card-body">
                   <h5 className="card-title">{flight.mission_name}</h5>
                   <p className="card-text">{flight.details}</p>
-                  <a href="#" className="btn btn-primary">Go somewhere</a>
+                  <a href="#" className="btn btn-primary" data-toggle="modal" data-target={`#unique${flight.mission_name}`}>Go somewhere</a>
                 </div>
               </div>
     </div>

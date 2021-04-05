@@ -1,6 +1,7 @@
 import { Component } from "react";
 import "./App.css";
-import {Card} from "./card";
+import {Card} from "./components/card";
+import {Modal} from "./components/modal";
 
 class App extends Component {
   constructor(){
@@ -22,7 +23,10 @@ class App extends Component {
       <div className='container'>
         <div className='row'>
         {this.state.flights.map(flight => (
-          <Card flight={flight}/>
+          <>
+          <Card key={flight.mission_name} flight={flight}/>
+          <Modal key={`unique1${flight.mission_name}`} flight={flight}/>
+          </>
         ))}
         </div>
       </div>    
