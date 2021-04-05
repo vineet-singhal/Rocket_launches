@@ -40,10 +40,7 @@ export const Filter = ({upcomingFilter, launchFilter}) => (
     </div>
     </div>
 
-    <div className='col-sm-4'>
-        <h5>Date: </h5>
-        
-    </div>
+    
 
     </div>
     </div>
