@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Rocket_launches/static/css/main.16267db2.chunk.css",
+    "main.js": "/Rocket_launches/static/js/main.c9625f9d.chunk.js",
+    "main.js.map": "/Rocket_launches/static/js/main.c9625f9d.chunk.js.map",
+    "runtime-main.js": "/Rocket_launches/static/js/runtime-main.59b80cad.js",
+    "runtime-main.js.map": "/Rocket_launches/static/js/runtime-main.59b80cad.js.map",
+    "static/js/2.8304d6b7.chunk.js": "/Rocket_launches/static/js/2.8304d6b7.chunk.js",
+    "static/js/2.8304d6b7.chunk.js.map": "/Rocket_launches/static/js/2.8304d6b7.chunk.js.map",
+    "static/js/3.f22e3584.chunk.js": "/Rocket_launches/static/js/3.f22e3584.chunk.js",
+    "static/js/3.f22e3584.chunk.js.map": "/Rocket_launches/static/js/3.f22e3584.chunk.js.map",
+    "index.html": "/Rocket_launches/index.html",
+    "static/css/main.16267db2.chunk.css.map": "/Rocket_launches/static/css/main.16267db2.chunk.css.map",
+    "static/js/2.8304d6b7.chunk.js.LICENSE.txt": "/Rocket_launches/static/js/2.8304d6b7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.59b80cad.js",
+    "static/js/2.8304d6b7.chunk.js",
+    "static/css/main.16267db2.chunk.css",
+    "static/js/main.c9625f9d.chunk.js"
+  ]
+}
