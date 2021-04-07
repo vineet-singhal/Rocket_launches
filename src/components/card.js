@@ -6,7 +6,7 @@ export const Card = ({flight}) =>(
                   <h5 className="card-title">{flight.mission_name}</h5>
                   <p className="card-text"><h6>Launch Date: </h6>{flight.launch_date_local.split("T")[0]}</p>
                   <p className="card-text"><h6>Launch Status: </h6>{flight.launch_success ? `Success` : `Failure`}</p>
-                  <a href="#" className="btn btn-primary" data-toggle="modal" data-target={`#modal${flight.launch_date_unix}`}>Go somewhere</a>
+                  <a href="#" className="btn btn-primary" data-toggle="modal" data-target={`#modal${flight.launch_date_unix}`}>More Details</a>
                 </div>
               </div>
     </div>
